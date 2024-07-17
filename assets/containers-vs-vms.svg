@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="400" fill="#f0f0f0"/>
+  
+  <!-- Containers Side -->
+  <rect x="50" y="50" width="300" height="300" fill="#e1f5fe" stroke="#2196f3" stroke-width="2"/>
+  <text x="200" y="30" text-anchor="middle" font-size="20" fill="#2196f3">Containers</text>
+  
+  <rect x="70" y="70" width="80" height="80" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="110" y="115" text-anchor="middle" font-size="14">App 1</text>
+  
+  <rect x="160" y="70" width="80" height="80" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="115" text-anchor="middle" font-size="14">App 2</text>
+  
+  <rect x="250" y="70" width="80" height="80" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="290" y="115" text-anchor="middle" font-size="14">App 3</text>
+  
+  <rect x="70" y="160" width="260" height="40" fill="#90caf9" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="185" text-anchor="middle" font-size="14">Docker</text>
+  
+  <rect x="70" y="210" width="260" height="120" fill="#42a5f5" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="275" text-anchor="middle" font-size="14">Host Operating System</text>
+  
+  <!-- VMs Side -->
+  <rect x="450" y="50" width="300" height="300" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+  <text x="600" y="30" text-anchor="middle" font-size="20" fill="#e91e63">Virtual Machines</text>
+  
+  <rect x="470" y="70" width="120" height="120" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="530" y="100" text-anchor="middle" font-size="14">App 1</text>
+  <rect x="470" y="130" width="120" height="40" fill="#f48fb1" stroke="#c2185b" stroke-width="2"/>
+  <text x="530" y="155" text-anchor="middle" font-size="12">Guest OS</text>
+  
+  <rect x="610" y="70" width="120" height="120" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="670" y="100" text-anchor="middle" font-size="14">App 2</text>
+  <rect x="610" y="130" width="120" height="40" fill="#f48fb1" stroke="#c2185b" stroke-width="2"/>
+  <text x="670" y="155" text-anchor="middle" font-size="12">Guest OS</text>
+  
+  <rect x="470" y="200" width="260" height="40" fill="#f06292" stroke="#c2185b" stroke-width="2"/>
+  <text x="600" y="225" text-anchor="middle" font-size="14">Hypervisor</text>
+  
+  <rect x="470" y="250" width="260" height="80" fill="#ec407a" stroke="#c2185b" stroke-width="2"/>
+  <text x="600" y="295" text-anchor="middle" font-size="14">Host Operating System</text>
+</svg>

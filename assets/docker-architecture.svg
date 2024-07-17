@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Docker Client -->
+  <rect x="50" y="50" width="200" height="100" fill="#bbdefb" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="150" y="100" text-anchor="middle" font-size="20" fill="#1565c0">Docker Client</text>
+  <text x="150" y="130" text-anchor="middle" font-size="14" fill="#1565c0">CLI / API</text>
+  
+  <!-- Docker Host -->
+  <rect x="300" y="50" width="450" height="500" fill="#e1f5fe" stroke="#2196f3" stroke-width="2" rx="10"/>
+  <text x="525" y="80" text-anchor="middle" font-size="24" font-weight="bold" fill="#2196f3">Docker Host</text>
+  
+  <!-- Docker Daemon -->
+  <rect x="320" y="100" width="200" height="100" fill="#90caf9" stroke="#1565c0" stroke-width="2" rx="10"/>
+  <text x="420" y="145" text-anchor="middle" font-size="18" fill="#1565c0">Docker Daemon</text>
+  <text x="420" y="170" text-anchor="middle" font-size="14" fill="#1565c0">Manages Docker objects</text>
+  
+  <!-- Containers -->
+  <rect x="320" y="220" width="200" height="150" fill="#4fc3f7" stroke="#0288d1" stroke-width="2" rx="10"/>
+  <text x="420" y="250" text-anchor="middle" font-size="18" fill="#0288d1">Containers</text>
+  <rect x="340" y="270" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="375" y="295" text-anchor="middle" font-size="12">Container 1</text>
+  <rect x="420" y="270" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="455" y="295" text-anchor="middle" font-size="12">Container 2</text>
+  <rect x="380" y="320" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="415" y="345" text-anchor="middle" font-size="12">Container 3</text>
+  
+  <!-- Images -->
+  <rect x="530" y="220" width="200" height="150" fill="#4fc3f7" stroke="#0288d1" stroke-width="2" rx="10"/>
+  <text x="630" y="250" text-anchor="middle" font-size="18" fill="#0288d1">Images</text>
+  <rect x="550" y="270" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="585" y="295" text-anchor="middle" font-size="12">Image 1</text>
+  <rect x="630" y="270" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="665" y="295" text-anchor="middle" font-size="12">Image 2</text>
+  <rect x="590" y="320" width="70" height="40" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="625" y="345" text-anchor="middle" font-size="12">Image 3</text>
+  
+  <!-- Volumes -->
+  <rect x="320" y="390" width="200" height="100" fill="#c8e6c9" stroke="#388e3c" stroke-width="2" rx="10"/>
+  <text x="420" y="435" text-anchor="middle" font-size="18" fill="#388e3c">Volumes</text>
+  <text x="420" y="460" text-anchor="middle" font-size="14" fill="#388e3c">Persistent Data Storage</text>
+  
+  <!-- Networks -->
+  <rect x="530" y="390" width="200" height="100" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" rx="10"/>
+  <text x="630" y="435" text-anchor="middle" font-size="18" fill="#fbc02d">Networks</text>
+  <text x="630" y="460" text-anchor="middle" font-size="14" fill="#fbc02d">Container Communication</text>
+  
+  <!-- Registry -->
+  <rect x="50" y="400" width="200" height="100" fill="#d1c4e9" stroke="#673ab7" stroke-width="2" rx="10"/>
+  <text x="150" y="450" text-anchor="middle" font-size="20" fill="#673ab7">Registry</text>
+  <text x="150" y="480" text-anchor="middle" font-size="14" fill="#673ab7">Image Repository</text>
+  
+  <!-- Arrows -->
+  <line x1="250" y1="100" x2="300" y2="100" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="250" y1="450" x2="300" y2="450" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="420" y1="200" x2="420" y2="220" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="520" y1="150" x2="550" y2="220" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+</svg>

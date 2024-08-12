@@ -46,36 +46,43 @@ graph TB
 ## Key AWS Components
 
 ### 1. EC2 (Elastic Compute Cloud)
+
 - Provides scalable computing capacity in the cloud
 - Allows you to run virtual servers (instances)
 - Offers various instance types optimized for different use cases (compute, memory, storage)
 
 ### 2. S3 (Simple Storage Service)
+
 - Object storage service for storing and retrieving any amount of data
 - Highly scalable, reliable, and low-latency data storage infrastructure
 - Used for backup and restore, archive, content distribution, and data lakes
 
 ### 3. RDS (Relational Database Service)
+
 - Managed database service supporting various database engines (MySQL, PostgreSQL, Oracle, SQL Server)
 - Handles routine database tasks such as backups, patch management, and replication
 - Provides high availability and failover support
 
 ### 4. VPC (Virtual Private Cloud)
+
 - Allows you to create an isolated network within the AWS cloud
 - Provides control over IP addressing, subnets, route tables, and network gateways
 - Enables secure and private cloud resources
 
 ### 5. IAM (Identity and Access Management)
+
 - Manages access to AWS services and resources securely
 - Allows you to create and manage users, groups, and permissions
 - Implements the principle of least privilege for enhanced security
 
 ### 6. Elastic Load Balancer (ELB)
+
 - Distributes incoming application traffic across multiple targets
 - Improves application availability and fault tolerance
 - Supports three types: Application Load Balancer, Network Load Balancer, and Classic Load Balancer
 
 ### 7. CloudFront
+
 - Content Delivery Network (CDN) service
 - Delivers content to users with low latency and high transfer speeds
 - Integrates with other AWS services for origin servers (e.g., S3, EC2)

@@ -12,36 +12,7 @@ This document will focus on AWS as an example to explain cloud provider componen
 
 ## AWS Cloud Architecture Diagram
 
-```mermaid
-graph TB
-    subgraph "AWS Cloud"
-        EC2[EC2 - Compute]
-        S3[S3 - Storage]
-        RDS[RDS - Database]
-        VPC[VPC - Networking]
-        IAM[IAM - Security]
-        
-        subgraph "High Availability"
-            AZ1[Availability Zone 1]
-            AZ2[Availability Zone 2]
-        end
-        
-        ELB[Elastic Load Balancer]
-        CF[CloudFront - CDN]
-    end
-    
-    User[User] --> CF
-    CF --> ELB
-    ELB --> EC2
-    EC2 --> RDS
-    EC2 --> S3
-    VPC -.- EC2
-    VPC -.- RDS
-    VPC -.- S3
-    IAM -.- EC2
-    IAM -.- RDS
-    IAM -.- S3
-```
+![AWS Components Graph](./assets/aws.svg)
 
 ## Key AWS Components
 
